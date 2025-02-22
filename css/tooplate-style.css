@@ -526,6 +526,7 @@ a {
 @media (min-width: 768px) {
   .tm-contact-right {
     padding-left: 40px;
+    flex-direction: column-reverse; /* Invierte el orden */
   }
 }
 
