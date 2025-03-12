@@ -16,6 +16,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>EST Ingenieros</title>
+
+    <style>
+        body {
+          font-family: 'Open Sans', sans-serif;
+          background-color: #ffffff;
+        }
+      </style>
+  
+      <!-- 🔹 Preconexión para acelerar la carga de fuentes -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+      <!-- 🔹 Precarga de la fuente Open Sans -->
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap">
+  
+      <!-- 🔹 Carga asíncrona de la fuente -->
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&display=swap" 
+            media="print" onload="this.onload=null;this.removeAttribute('media');">
+  
+      <!-- 🔹 Carga diferida de Bootstrap -->
+      <link rel="stylesheet" href="css/bootstrap.min.css" 
+            media="print" onload="this.onload=null;this.removeAttribute('media');">
+  
+      <!-- 🔹 Carga diferida de estilos personalizados -->
+      <link rel="stylesheet" href="css/tooplate-style.css" 
+            media="print" onload="this.onload=null;this.removeAttribute('media');">
+  
+      <!-- 🔹 Opción extra: Un solo CSS minificado (si combinas archivos) -->
+      <!-- <link rel="stylesheet" href="css/styles.min.css" media="print" onload="this.onload=null;this.removeAttribute('media');"> -->
+      
+  </head>
    
 
     <!-- Favicon estándar para navegadores (Chrome, Firefox, Edge, etc.) -->
@@ -228,7 +259,7 @@
                         <p><i class="fa fa-envelope" style="color: #d63f1f;"></i> <strong>Email:</strong> 
                             <a href="mailto:p.estiarte@gmail.com" style="color: black; text-decoration: none;">p.estiarte@gmail.com</a>
                         </p>
-                        <p>V1.01</p>
+                        <p>V1.02</p>
                     </div>
                 </div>
                 <div class="col-lg-7 col-md-7 col-xs-12">
